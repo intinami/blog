@@ -1,2 +1,11 @@
-<h1>Wall#posts</h1>
-<p>Find me in app/views/wall/posts.html.erb</p>
+<div style="background-color:#EEE">
+	<h1>RECENT POSTS</h1>
+	<div class="post" style="display:block;width:300px;min-height:200px;background-color:#FFF;border:1px solid #D9D9D9;border-radius:8px;">
+		<div class="post-header">
+			<span><%= @writer %></span>
+		</div>
+		<div class="post-body">
+			<p><%= @content %></p>
+		</div>
+	</div>
+</div>
